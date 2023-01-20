@@ -26,17 +26,17 @@ function App() {
       </a>
       <div className="narbar-nav mr-auto">
         <li className="nav-item">
-          <Link to={"/restaurants"} className="nav-link">
+          <Link to={"/restaurants"} className="nav-link text-light">
             Restaurants
           </Link>
         </li>
-        <li className="nav-item">
+        <li className="nav-item text-light">
           { user ? 
           <a onClick={logout} className="nav-link" style={{cursor:'pointer'}}>
             Logout {user.name}
           </a>
           :
-          <Link to={"/login"} className="nav-link">
+          <Link to={"/login"} className="nav-link text-light">
             Login
           </Link>
           }
