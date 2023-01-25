@@ -128,7 +128,7 @@ const RestaurantsList = () => {
                       <Link to={"/restaurants/"+restaurant._id} className='btn btn-primary col-lg-5 mx-1 mb-1'>
                         View Reviews
                       </Link>
-                      <a target="_blank" href={"https://www.google.com/maps/place" + address} className="btn btn-primary col-lg-5 mx-1 mb-1">View Map</a>
+                      <a target="_blank" href={"https://www.google.com/maps/place/" + address} className="btn btn-primary col-lg-5 mx-1 mb-1">View Map</a>
                     </div>
                 </div>
               </div>
